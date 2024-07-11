@@ -163,7 +163,7 @@ plt.show()
 
 - **Mengatur Plotting Area: axs = axs.ravel()** mengubah array 2D axs menjadi array 1D, memudahkan untuk mengakses setiap subplot secara langsung.
 
-- *Menampilkan Gambar:** Setiap subplot ditetapkan untuk menampilkan hasil dari transformasi gambar:
+- **Menampilkan Gambar:** Setiap subplot ditetapkan untuk menampilkan hasil dari transformasi gambar:
 
      - **axs[0].imshow(img):** Menampilkan gambar asli.
      - **axs[1].imshow(rotated_img):** Menampilkan gambar setelah rotasi.
